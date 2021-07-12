@@ -30,6 +30,7 @@ const Wrapper = styled('div')`
 
 const Content = styled('main')`
   margin: 0px 8%;
+  width: 50%;
   padding-top: 3rem;
   background: ${({ theme }) => theme.colors.background};
 
