@@ -80,6 +80,13 @@ const Layout = ({ children, location }) => (
         </RightSideBarWidth>
       </Wrapper>
     </MDXProvider>
+    <div class="footer__bottom text--center" style={{textAlign: "center", backgroundColor: "#303846", color: "white"}}>
+      <div class="footer__copyright">
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </div>
+    </div>
   </ThemeProvider>
 );
 
